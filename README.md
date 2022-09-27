@@ -82,3 +82,14 @@ Configurar VIM como VS Code
   - Presinamos dos puntos con la combinacion de teclas <kbd>shift</kbd> + <kbd>.</kbd>
   - Escribimos la tecla <kbd>w</kbd> y enter <kbd>enter</kbd> y los cambios habran sios guardados correctamente. Para verificarlos en la parte inferior de nuestro editor un pequeño mensaje.
   - Otra manera de guardar lo editado es con **:** y escrinimos **wq** lo que hara es guardar el archivo y salir del editor de texto.
+
+## Moverse entre archivos
+  Primero de utilizaremos la herramienta de ayuda utilizando las teclas:
+  
+  - <kbd>gd</kbd> conjuntamente nos ayuda a encontrar la definicion de la palabra donde se encuentra el cursor, en este caso de una funcion llamado ***ayuda*** que se encuentra en el archivo **helper.js**.
+  - Si queremos ir al arvicho directamente presionamos las teclas <kbd>gf</kbd> ubicando el cursor encima del texto del archivo al que queremos navegar, antes de todo guardar los cambios realizados.
+
+  Algo muy importante son los **buffers** cada vez que nosotros empezamos a navegar entre archivos o tambien entre definiciones nuestra navegación se empezara a apilar ('quiere decir que inicialmente estabamos en nivel cero en el archivod de index.js y luego de eso navegamos al archivo de helper.js').
+
+  - Si nos queremos devolver en este historial presionamos las teclas <kbd>control</kbd> + <kbd>o</kbd>, creando un indice de navegación entre los archivos y las definiciones haciendo un movimiento hacia atras.
+  - Para movernos hacia adelante presionando <kbd>control</kbd> + <kbd>i</kbd>
