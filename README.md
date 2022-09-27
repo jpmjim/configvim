@@ -29,3 +29,19 @@ Configurar VIM como VS Code
   nvim
   ```
   
+- Salir de vim o neovim
+
+  La manera de poder salir es de la siguiente manera:
+  ```bash
+  #combinaion de teclas 
+  - 2 veces tecla esc
+  - : dos puntos y la letra q
+  **:q**
+  ```
+- Los modos
+
+  Vim y neovim trabajan con modos, son como capas que van encontrarse encima del teclado por ejemplo: cuando nosotros tenemos presionado la tecla <kbd>SHIFT</kbd> + <kbd>letra</kbd> y presionamos cualquier letra esta se convierte en letra mayúscula.
+
+  Dependiendo en el modo que nos encontremos vim va poder navegar atraves del texto, vamos a poder insertar texto, tambien poder seleccionar texto que se encuentre el foco del editor y tambien poder ingresar comandos dentro de una interfaz que tiene línea de comandos. Ejemplo: al presionar la tecla <kbd>SHIFT</kbd> + <kbd>1</kbd> = **!** el signo de exclamación.
+
+  A medida que medida que vamos avanzando veremos con profunfidad cada uno de los modos que se encuentran dentro de vim.
