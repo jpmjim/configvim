@@ -72,3 +72,13 @@ Configurar VIM como VS Code
   - Si queremos editar el final de la linea solamente presionamos la A mayuscula <kbd>shift</kbd> + <kbd>a</kbd>
   - Cuando no estamos insertando texto nosotros nos encontramos en el modo normal.
 
+## Eliminar texto
+  Eliminar texto dentro de nuestro editor de vim para eso debemos estar en el modo normal nos posicionamos en los caracteres que queremos eliminar 
+  - Utilizando la tecla <kbd>x</kbd> caracter por caracter.
+
+## Guardar archivo
+  Guardar los cambios realizados en el editor para eso debemos asegurarnos estar en el modo normal:
+  - Presionando dos veces <kbd>esc</kbd>.
+  - Presinamos dos puntos con la combinacion de teclas <kbd>shift</kbd> + <kbd>.</kbd>
+  - Escribimos la tecla <kbd>w</kbd> y enter <kbd>enter</kbd> y los cambios habran sios guardados correctamente. Para verificarlos en la parte inferior de nuestro editor un pequeño mensaje.
+  - Otra manera de guardar lo editado es con **:** y escrinimos **wq** lo que hara es guardar el archivo y salir del editor de texto.
