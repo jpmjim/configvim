@@ -45,3 +45,23 @@ Configurar VIM como VS Code
   Dependiendo en el modo que nos encontremos vim va poder navegar atraves del texto, vamos a poder insertar texto, tambien poder seleccionar texto que se encuentre el foco del editor y tambien poder ingresar comandos dentro de una interfaz que tiene línea de comandos. Ejemplo: al presionar la tecla <kbd>SHIFT</kbd> + <kbd>1</kbd> = **!** el signo de exclamación.
 
   A medida que medida que vamos avanzando veremos con profunfidad cada uno de los modos que se encuentran dentro de vim.
+
+## Moviendo del curso y entre palabras
+  Utizaremos un archivo de referencia **index.js**
+  
+  Abriremos el archivo con la siguiente sintaxis:
+  ```bash
+  #en la terminal con vim o nvim
+  nvim indes.js
+  ```
+
+  Para los movimientos son las siguientes teclas:
+  - <kbd>l</kbd> hacia el lado derecho
+  - <kbd>h</kbd> hacia el lado izquierdo
+  - <kbd>j</kbd> hacia abajo
+  - <kbd>k</kbd> hacia arriba
+  - <kbd>w</kbd> nos podemos mover mas rapido hacia adelante, lo que hace es llevar el cursor al comienzo de la palabra que sigue o del objeto de texto siguiente. A los parentensis los detecta como otro objeto de texto.
+  - <kbd>b</kbd> nos vemos hacia atras, llevandonos tambien al inicio de cada objeto de texto.
+  - <kbd>e</kbd> desplazar al final de la palabra.
+
+  Con estas 7 teclas podemos desplazarnos a lo largo de todo el texto.
