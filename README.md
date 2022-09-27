@@ -65,3 +65,10 @@ Configurar VIM como VS Code
   - <kbd>e</kbd> desplazar al final de la palabra.
 
   Con estas 7 teclas podemos desplazarnos a lo largo de todo el texto.
+
+## Insertar texto y agregarlo al final
+  - Para poder ingresar texto presionando la tecla <kbd>i</kbd> cambiando de modo **insert** posicionandonos antes del cursor donde se encuentre ubicado, para poder editar o añadir una cadena de caracteres al archivo. Y cuando queramos salir presionamos la tecla <kbd>esc</kbd> dos veces.
+  - Otra forma de insertar texto es con la tecla <kbd>a</kbd> el cual nos va dejar despues donde se encontrara el cursor.
+  - Si queremos editar el final de la linea solamente presionamos la A mayuscula <kbd>shift</kbd> + <kbd>a</kbd>
+  - Cuando no estamos insertando texto nosotros nos encontramos en el modo normal.
+

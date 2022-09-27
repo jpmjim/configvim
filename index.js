@@ -1,12 +1,11 @@
 // funcion de suma total
 const suma = (ns) => {
   let acumulado = 0;
-  for (i = 0; i < ns.length; i++){
- 
-    cumulado += ns[i];
+  for (i = 0; i < ns.length; i++) {
+    acumulado += ns[i];
   }
 
-  return acumulado
+  return acumulado;
 } 
 
 const numeros = [1, 2, 3, 4, 5];
