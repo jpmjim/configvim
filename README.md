@@ -164,4 +164,11 @@ Configurar VIM como VS Code
   - Al final de la linea **<kbd>$</kbd>**.
   - El comando de sustituir desde el modo de normal, presionando **<kbd>:/palabra_susti/nueva_palabra</kbd>** por ejemplo dentro de nuestro archivo de index.js con la palabra ***pares*** por ***iguales***, ":s/pares/iguales".
   - Si queremos reemplazar todas las mismas ocurrencia de una linea la misma combinacion añadiendo **<kbd>:s/the/de/g</kbd>** reemplazando absolutamente todas, el cual solo funciona donde solamente se encuentra el cursor.
-  - Si queremos que nos reemplazen todas las ocurrencias de un archivo en modo de comando **<kbd>:%s/numeros/unoAlCinco/gc</kbd>** reemplazara una por una preguntando si deseeo hacer el cambio, dandome una serie de alternativas en la parte de abajo del editor.  
+  - Si queremos que nos reemplazen todas las ocurrencias de un archivo en modo de comando **<kbd>:%s/numeros/unoAlCinco/gc</kbd>** reemplazara una por una preguntando si deseeo hacer el cambio, dandome una serie de alternativas en la parte de abajo del editor.
+
+## Abrir linea, reemplazar, copiar y pegar
+  - Para abrir una nueva linea independiente donde se encuentre el cursor presionamos la letra **<kbd>o</kbd>** se abrira la parte de abajo, para hacerlo hacia arriba es con la **<kbd>O</kbd>** mayuscula dejandonos en el modo de insertar.
+  - Otra forma de reemplazar con la **<kbd>R</kbd>** mayuscula manteniendonos en el modo reemplazar permitiendo el cursor avanzar.
+  
+  Cuando queremos copiar algo debemos pasar al modo visual presionando **<kbd>v</kbd>** moviendonos al ***modo visual***.
+  - Dentro del modo podemos mover el cursor que asu paso ira seleccionando lo que queramos copiar, al presionar **<kbd>y</kbd>** i griega nos saca del modo visual y posicionandonos en una linea nueva presionamos la letra **<kbd>p</kbd>** o ***P*** mayuscula nos copiara lo antes seleccionado dejando el cursor al inicio o final.     

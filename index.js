@@ -10,11 +10,15 @@ const suma = (ns) => {
   return acumulado;
 } 
 // un poco de texto para eliminar
-const unoAlCinco = [1, 2, 3, 4, 5];
+// un poco de texto para eliminar
+
+const numeros = [1, 2, 3, 4, 5];
+
 
 const multiplicados = numeros.map(x => x * 2)
 // a iguales
 const parejas = numeros.map(x => [x, x])
+// a iguales
 
 const mascotas = [
   { nombre: 'Robotin', edad: 12, tipo: 'gato' },
