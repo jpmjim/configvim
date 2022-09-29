@@ -17,7 +17,7 @@ const multiplicados = numeros.map(x => x * 2)
 const parejas = numeros.map(x => [x, x])
 
 const mascotas = [
-  { nombre: 'Pelusa', edad: 12, tipo: 'gato' },
+  { nombre: 'Robotin', edad: 12, tipo: 'gato' },
   { nombre: 'Puchinr', edad: 12, tipo: 'perro' },
   { nombre: 'Chanchito feliz', edad: 3, tipo: 'perro' },
   { bmre: 'Pulga', edad: 10, tipo: 'perro' },

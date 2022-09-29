@@ -126,4 +126,14 @@ Configurar VIM como VS Code
 
   - Eliminar un caracter con **<kbd>x</kbd>**, al pegar solo se hara lo ultimo que fue recortado.
 
-  - Podemos tambien encadenar con numero por ejemplo: cuando queramos recortar 2 lineas de la siguiente manera **<kbd>2dd</kbd>** 
+  - Podemos tambien encadenar con numero por ejemplo: cuando queramos recortar 2 lineas de la siguiente manera **<kbd>2dd</kbd>**.
+
+## Operador de cambio y reemplazar
+  Veremos el comando para reemplazar, puede ser el comando menos utilizado.
+
+  - Solamente posicionar sobre el cursor sobre el caracter que queremos reemplzar con la tecla **<kbd>r</kbd>**, nos ahorramos algun tipeado.
+
+  Nos pasamos el operador de cambio que es uno de lo mas utiles. Al querer cambiar una palabra tenemos dos opciones:
+
+  - La forma **fome** te posicionas al inicio de la palabra o donde queramos el cambio con el cursor y solo presionamos **<kbd>cw</kbd>** par ael cierra solo presionamos **<kbd>esc</kbd>**.
+  - Cambia la palabra interna pero el objeto de la palabra, teniendo el curso en cualquier sitio dentro de la palabra con **<kbd>ciw</kbd>**, comando muy util al querer reemplazar una palabra.
