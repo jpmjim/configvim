@@ -93,3 +93,11 @@ Configurar VIM como VS Code
 
   - Si nos queremos devolver en este historial presionamos las teclas <kbd>control</kbd> + <kbd>o</kbd>, creando un indice de navegación entre los archivos y las definiciones haciendo un movimiento hacia atras.
   - Para movernos hacia adelante presionando <kbd>control</kbd> + <kbd>i</kbd>
+
+## Comandos para eliminar, undo y redo
+  Ahora vamos haber son distintos comandos para poder eliminar texto en nuestro editor, antes de empezar a eliminar algo debemos estar en **modo normal**.
+
+  - Teclas a presionar son **<kbd>dw</kbd>** para poder eliminar texto un palabra completa.
+  - El comando para deshacer presionando la tecla **<kbd>u</kbd>** del ingles ***undo***.
+  - Si queremos rehacer nuestros cambios presionamos la combinación de **<kbd>control</kbd> + <kbd>r</kbd>** de ***redos***.
+  - Para poder eliminar el texto de una linea usamos **<kbd>control</kbd> + <kbd>$</kbd>** borrara todo la linea según donde se encuentre el cursor dejando la linea completamente vacia.
