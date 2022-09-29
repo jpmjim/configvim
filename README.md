@@ -137,3 +137,18 @@ Configurar VIM como VS Code
 
   - La forma **fome** te posicionas al inicio de la palabra o donde queramos el cambio con el cursor y solo presionamos **<kbd>cw</kbd>** par ael cierra solo presionamos **<kbd>esc</kbd>**.
   - Cambia la palabra interna pero el objeto de la palabra, teniendo el curso en cualquier sitio dentro de la palabra con **<kbd>ciw</kbd>**, comando muy util al querer reemplazar una palabra.
+
+## Salto a líneas, comienzo, final del archivo y buscar.
+
+  Ahora aprenderemos a saltar dentro del archivo :
+
+  - Para ver en que linea se encuentran es **<kbd>control</kbd> + <kbd>g</kbd>**.
+  - Comando que nos lleva al comienzo del archivo con **<kbd>gg</kbd>**.
+  - Al final del archivo simplemete **<kbd>G</kbd>** mayuscula.
+  -Movernos a una linea en especifico ingresando el número **<kbd>16</kbd> + <kbd>G</kbd>** mayuscula.
+
+  Si queremos buscar desde el cursor:
+
+  - Presionamos **<kbd>/</kbd>** y escribimos la palabra que queramos buscar apareciendo todas las concidencias, desde la posicion del cursor hacia adelante.
+  - Si queremos hacer hacia atras con signo de pregunta **<kbd>?</kbd>** y nuestra palabra.
+  - Movernos entre las ocurrencias con la letra **<kbd>n</kbd>** hacia adelante y con la **<kbd>N</kbd>** mayuscula hacia atras.
