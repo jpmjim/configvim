@@ -101,3 +101,13 @@ Configurar VIM como VS Code
   - El comando para deshacer presionando la tecla **<kbd>u</kbd>** del ingles ***undo***.
   - Si queremos rehacer nuestros cambios presionamos la combinación de **<kbd>control</kbd> + <kbd>r</kbd>** de ***redos***.
   - Para poder eliminar el texto de una linea usamos **<kbd>control</kbd> + <kbd>$</kbd>** borrara todo la linea según donde se encuentre el cursor dejando la linea completamente vacia.
+
+## Operadores y movimientos
+  Como podemos combinar operadores con movimientos empezaremos con el operador de eliminar.
+
+  No solamente podemos combinar con el simbolo de **<kbd>$</kbd>** si no que tambien podemos combinarlos con los operadores de movimiento.
+
+  - Con **<kbd>dw</kbd>** eliminar hacia adelante, **<kbd>de</kbd>**, **<kbd>db</kbd>** eliminar hacia atras. Todos las combinaciones de movimientos con operadores van hacer validas.
+
+  - Tambien podemos utilizar números, podemos hacer es multiplicar esta cantidad  de operaciones con movimientos. De esta forma **<kbd>d4w</kbd>** eliminara la cantidad de palabras establecida.
+  - Para movimientos **<kbd>4w</kbd>**, **<kbd>3e</kbd>**, **<kbd>3b</kbd>** para podernos mover.
