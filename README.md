@@ -152,3 +152,16 @@ Configurar VIM como VS Code
   - Presionamos **<kbd>/</kbd>** y escribimos la palabra que queramos buscar apareciendo todas las concidencias, desde la posicion del cursor hacia adelante.
   - Si queremos hacer hacia atras con signo de pregunta **<kbd>?</kbd>** y nuestra palabra.
   - Movernos entre las ocurrencias con la letra **<kbd>n</kbd>** hacia adelante y con la **<kbd>N</kbd>** mayuscula hacia atras.
+
+## Saltando al parentesis correspondiente y reemplazando las cadenas
+  Como podemos hacer un salto en tre los parentesis correspondiente:
+
+  - Usando el teclado de **<kbd>%</kbd>** porcentaje dependiendo del teclado que tengamos, generalmente en cualquier parentesis que tengamos como ***(), {}, []***:.
+  
+  Como podemos reemplazar texto que se encuentra en un linea:
+
+  - Para ir al comienzo de una linea presionamos **<kbd>0</kbd>**.
+  - Al final de la linea **<kbd>$</kbd>**.
+  - El comando de sustituir desde el modo de normal, presionando **<kbd>:/palabra_susti/nueva_palabra</kbd>** por ejemplo dentro de nuestro archivo de index.js con la palabra ***pares*** por ***iguales***, ":s/pares/iguales".
+  - Si queremos reemplazar todas las mismas ocurrencia de una linea la misma combinacion añadiendo **<kbd>:s/the/de/g</kbd>** reemplazando absolutamente todas, el cual solo funciona donde solamente se encuentra el cursor.
+  - Si queremos que nos reemplazen todas las ocurrencias de un archivo en modo de comando **<kbd>:%s/numeros/unoAlCinco/gc</kbd>** reemplazara una por una preguntando si deseeo hacer el cambio, dandome una serie de alternativas en la parte de abajo del editor.  

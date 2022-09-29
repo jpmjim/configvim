@@ -10,10 +10,10 @@ const suma = (ns) => {
   return acumulado;
 } 
 // un poco de texto para eliminar
-const numeros = [1, 2, 3, 4, 5];
+const unoAlCinco = [1, 2, 3, 4, 5];
 
 const multiplicados = numeros.map(x => x * 2)
-// a pares
+// a iguales
 const parejas = numeros.map(x => [x, x])
 
 const mascotas = [
