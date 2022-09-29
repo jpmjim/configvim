@@ -111,3 +111,19 @@ Configurar VIM como VS Code
 
   - Tambien podemos utilizar números, podemos hacer es multiplicar esta cantidad  de operaciones con movimientos. De esta forma **<kbd>d4w</kbd>** eliminara la cantidad de palabras establecida.
   - Para movimientos **<kbd>4w</kbd>**, **<kbd>3e</kbd>**, **<kbd>3b</kbd>** para podernos mover.
+
+
+## Eliminando líneas, pegar y reordenar listas
+  Aprender a eliminar y tambien a mantener lo que se elimino dentro del **clean board** es lo que mantiene lo que va hacer pegado despues en otro lado.
+
+  Cuando eliminemos algo esto simpre va quedar en el clean board.
+
+  - Para eliminar una linea completa presionamos la tecla **<kbd>dd</kbd>** dos veces.
+  - Para pegar esa linea simplemente presionamos la tecla **<kbd>p</kbd>** direccionado hacia abajo. Ubicando el cursor donde queremos pegar.
+  - Si queremos direccionar hacia arriba es con la letra **<kbd>P</kbd>** mayuscula.
+
+  Dentro de vim no existe ***eliminar***, lo unico que existe es **cortar**.
+
+  - Eliminar un caracter con **<kbd>x</kbd>**, al pegar solo se hara lo ultimo que fue recortado.
+
+  - Podemos tambien encadenar con numero por ejemplo: cuando queramos recortar 2 lineas de la siguiente manera **<kbd>2dd</kbd>** 
