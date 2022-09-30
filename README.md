@@ -171,4 +171,41 @@ Configurar VIM como VS Code
   - Otra forma de reemplazar con la **<kbd>R</kbd>** mayuscula manteniendonos en el modo reemplazar permitiendo el cursor avanzar.
   
   Cuando queremos copiar algo debemos pasar al modo visual presionando **<kbd>v</kbd>** moviendonos al ***modo visual***.
-  - Dentro del modo podemos mover el cursor que asu paso ira seleccionando lo que queramos copiar, al presionar **<kbd>y</kbd>** i griega nos saca del modo visual y posicionandonos en una linea nueva presionamos la letra **<kbd>p</kbd>** o ***P*** mayuscula nos copiara lo antes seleccionado dejando el cursor al inicio o final.     
+  - Dentro del modo podemos mover el cursor que asu paso ira seleccionando lo que queramos copiar, al presionar **<kbd>y</kbd>** i griega nos saca del modo visual y posicionandonos en una linea nueva presionamos la letra **<kbd>p</kbd>** o ***P*** mayuscula nos copiara lo antes seleccionado dejando el cursor al inicio o final.    
+
+
+## Configurando vim o neovim
+  Realizar algunas configuraciones a nuestro editor de texto, para poder agregarles un par de funcionalidades mas que ya son nativas de vim y de neovim, un espacio de entorno de desarrollo.
+
+  - Primero debemos buscar nuestro archivo de **init.vim** que se encuentra en la siguiente ruta:
+  ```bash
+  cd ~/.config/nvim/init.vim
+  ```
+  - Dentro del archivo de **init.vim** debe tener las siguientes lineas.
+  ```vim
+  set runtimepath^=~/.vim runtimepath+=~/.vim/after
+  let &packpath=&runtimepath
+  source ~/.config/.vimrc
+  ```
+  Esta lineas lo que hacen es que nos permiten el mismo el mismo archivo de configuración para vim y nvim creando un enlace simbolico.
+
+  - Nos pasamos a editar el archivo de **.vimrc** que se encuentra en ***~/.config/nvim/.vimrc***
+
+  - Para ver los cambios solamente salimos y volvemos a ingresar.
+
+  ```bash
+  archivo .vimrc
+  - set number => lo que hace es setear numeros al lado izquierdo del editor.
+  - set mouse=a => nos permite interectuar con el mouse dentro de vim.
+  - set numberwidth=1 => el ancho de los numeros.
+  - set clipboard=unnamed => para poder copiar dentro del editor con el mouse.
+  - syntax enable => para habilitar la syntax.
+  - set showcmd => para mostrar los comandos que estoy ejecutando.
+  - set ruler => que nos muestre la posicion. 
+  - set encoding=utf-8 => codificación de archivos.
+  - set showmatch => al posicionarse en un parentesis muestra la ubicacion del parentesis que lo esta cerrando.
+  - set sw=2 => para poder identar con dos espacios.
+  - set relativenumber => dependiendo de donde se encuentre el cursor la linea donde estamos sera un 0 muy util para movernos entre lineas.
+  - set laststatus=2 => la barra de la parte inferior siempre sea visible.
+  - set noshowmode => para no ver en el modo que nos encontramos.
+  ```
