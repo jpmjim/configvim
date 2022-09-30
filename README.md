@@ -301,5 +301,15 @@ Configurar VIM como VS Code
   #dentro de nuestro archivo .vimrc
   Plug 'christoomey/vim-tmux-navigator'
   ```
-  -Para poder movernos mantenemos presionado la tecla **<kbd>control</kbd>** y con las letras ***h, j, k, l*** podemos movernos.
-    
+  - Para poder movernos mantenemos presionado la tecla **<kbd>control</kbd>** y con las letras ***h, j, k, l*** podemos movernos.
+
+## Creando atajos personalizados
+  Vamos aprender hacer atajos pero no solamente de plugins, si no tambien de instrucciones que ejecutamos constantemente.
+  - Atajos para dos comandos en particular.
+  ```bash
+  #config archivo de .vimrc
+  #para guardar
+  nmap <Leader>w :w<CR>
+  #para salir
+  nmap <Leader>q :q<CR>
+  ```  
