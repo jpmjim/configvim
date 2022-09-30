@@ -292,3 +292,14 @@ Configurar VIM como VS Code
   let NERDTreeQuitOnOpen=1
   ```
 
+## Navegando entre archivos abiertos
+  Instalaremos un plugin que nos permita navegar solamente con el teclado y cuando tengamos mas de una instancia abierta.
+
+  - Para abir una nueva instancia presionamos la letra **<kbd>s</kbd>**
+  - Inslación del plugin
+  ```bash
+  #dentro de nuestro archivo .vimrc
+  Plug 'christoomey/vim-tmux-navigator'
+  ```
+  -Para poder movernos mantenemos presionado la tecla **<kbd>control</kbd>** y con las letras ***h, j, k, l*** podemos movernos.
+    
