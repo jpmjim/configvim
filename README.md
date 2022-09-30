@@ -209,3 +209,14 @@ Configurar VIM como VS Code
   - set laststatus=2 => la barra de la parte inferior siempre sea visible.
   - set noshowmode => para no ver en el modo que nos encontramos.
   ```
+
+## Instalando gestor de extensiones
+  Instalaremos extensiones para poder extender aun mas la funcionalidad que tiene nuestro editor de texto.
+  
+  Necesitaremos un manejador de plugins en este caso vamos instalar **[Plug Vim](https://github.com/junegunn/vim-plug)**
+  ```bash
+  #para neovim
+  #dentro de la terminal copiar esta url
+  sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  ```
