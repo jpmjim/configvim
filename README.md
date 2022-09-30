@@ -220,3 +220,37 @@ Configurar VIM como VS Code
   sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   ```
+
+## Instalando temas
+  Veremos como podemos instalar temas nuevos el que usaremos como ejemplo sera **[gruvbox](https://github.com/morhetz/gruvbox)**.
+
+  Para poder instalar plugins debemos utilizar nuestro manejador ya previamente instalado **Plug Vim**, dentro de nuestro archivo ***.vimrc*** realizamos la siguiente configuracion:
+
+  **.config/.vim**
+  ```bash
+  #llamamos a plug
+  call plug#begin('~/.vim/plugged') => hacemos el llamado del manejador y indicar la ruta donde queremos que se instalen nuestro plugins.
+  #instalamos nuestro tema
+  Plug 'morhetz/gruvbox' => Usando la sintaxis manejador y nombre del paquete.
+  #cerramos el llamado de plugins
+  call plug#end()
+  ```
+  Cerramos guardando los cambios, salimos y volvemos a ingresar.
+
+  Ejecutamos el comando de:
+  ```bash
+  :PlugInstall
+  #se instalaran los plugins mostrandonos el mensaje de instalación
+  - Finishing ... Done!
+  - gruvbox: Resolviendo deltas: 100% (13/13), listo.
+  ```
+
+  Luege cargar los plugins debemos configurarlos:
+  ```bash
+  #configuracion de plugin
+  colorscheme gruvbox
+  let g:gruvbox_contrast_dark = "hard"
+  ```
+  Salimos, al ingresar los cambios se habran cargado.
+
+
