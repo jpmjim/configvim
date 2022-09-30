@@ -275,3 +275,20 @@ Configurar VIM como VS Code
   #configuracion del atajo que cada vez que utilizanos la combinacion de espacio + s, estamos haciendo el llamado del plugin easymotion.
   nmap <Leader>s <Plug>(easymotion-s2)
   ```
+
+## Nerdtree
+  Como ver un arbol de archivos como cualquier editor de texto como puede ser visual studio code, sublime text dentro de neovim.
+  
+  Plugin muy necesario a la hora de trabajar.
+  - Instalación del plugin
+  ```bash
+  #dentro de nuestro archivo de .vimrc
+  Plug 'scrooloose/nerdtree'
+  #config de ejecucion
+  nmap <Leader>nt :NERDTreeFind<CR>
+  #Para ingresar a las opciones de nerdtree presionamos
+  m
+  # al seleccionar un archivo se cierre nerdtree
+  let NERDTreeQuitOnOpen=1
+  ```
+
