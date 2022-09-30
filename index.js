@@ -21,7 +21,7 @@ const parejas = numeros.map(x => [x, x])
 // a iguales
 
 const mascotas = [
-  { nombre: 'Robotin', edad: 12, tipo: 'gato' },
+  { nombre: 'Pelusa', edad: 12, tipo: 'gato' },
   { nombre: 'Puchinr', edad: 12, tipo: 'perro' },
   { nombre: 'Chanchito feliz', edad: 3, tipo: 'perro' },
   { bmre: 'Pulga', edad: 10, tipo: 'perro' },

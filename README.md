@@ -253,4 +253,25 @@ Configurar VIM como VS Code
   ```
   Salimos, al ingresar los cambios se habran cargado.
 
+## Easymotion
+  Es un plugin que nos permite navegar a cualquier parte de nuestro codigo por los menos de lo que estamos mirando, poder hacer saltos desde donde se encuentra el cursor a la parte que nosotros virtualmente queramos.
 
+  - Movernos mucho mas rapido dentro del archivo, su instalación:
+  ```bash
+  #dentro de nuestro archivo de .vimrc
+  " IDE
+  Plug 'easymotion/vim-easymotion'
+  ```
+
+  Lo que si que tenemos que hacer es activar una tecla o un atajo de teclado que se active cuando nosotros llamemos a easymotion.
+  - Activar una tecla que va funcionar de "tecla lider", que cada vez que presionemos esa tecla seguido de otra combinación de teclas va ejecutar los comandos o atajos que nosotros le endiquemos:
+  ```vim
+  #utilizaremos como tecla lider el espacio " "
+  let mapleader=" "
+  #manera de utilizarlo es
+  <Leader>s
+  #nos pedira dos caracteres las ingresamos
+  #se seleccionaran las concidencias cada una con una letra, solamente ingresamos la letra a donde queremos movernos.
+  #configuracion del atajo que cada vez que utilizanos la combinacion de espacio + s, estamos haciendo el llamado del plugin easymotion.
+  nmap <Leader>s <Plug>(easymotion-s2)
+  ```
